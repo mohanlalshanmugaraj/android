@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#95D7F4"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".bmi">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age Calculator"
+        android:textSize="100dp"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="200dp">
+    <EditText
+        android:id="@+id/date1"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="40dp"
+
+        android:inputType="datetime"
+        android:textAlignment="center"
+
+        android:background="@drawable/backround_shape"
+        android:hint="selected your date"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/calendar"
+        android:layout_width="100dp"
+        android:layout_marginTop="45dp"
+        android:layout_height="100dp"
+
+        android:background="@drawable/calendar"
+        />
+</LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/calculator"
+        android:layout_width="350dp"
+        android:layout_marginTop="80dp"
+
+        android:layout_height="80dp"
+        android:text="calculator"
+        />
+
+    <TextView
+        android:id="@+id/year"
+        android:text="ENTER YOUR AGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="AGE = ?"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        />
+
+
+
+
+
+</LinearLayout>

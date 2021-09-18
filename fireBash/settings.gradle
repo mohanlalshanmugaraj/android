@@ -1,0 +1,2 @@
+rootProject.name = "fireBash"
+include ':app'

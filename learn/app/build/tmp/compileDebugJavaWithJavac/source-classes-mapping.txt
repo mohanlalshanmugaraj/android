@@ -1,0 +1,4 @@
+com/example/learn/BuildConfig.java
+ com.example.learn.BuildConfig
+com/example/learn/MainActivity.java
+ com.example.learn.MainActivity

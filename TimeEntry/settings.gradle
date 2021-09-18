@@ -1,0 +1,2 @@
+rootProject.name = "TimeEntry"
+include ':app'

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388342470509",
+    "project_id": "firebash-6fe3a",
+    "storage_bucket": "firebash-6fe3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388342470509:android:39388d327f48feb0bf2c64",
+        "android_client_info": {
+          "package_name": "com.example.firebash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388342470509-7pppr1l96no6nstdqemfpp6sfl80t935.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIIaR2rsnsNIt40TyU9pVqFhyFbjzuz-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388342470509-7pppr1l96no6nstdqemfpp6sfl80t935.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

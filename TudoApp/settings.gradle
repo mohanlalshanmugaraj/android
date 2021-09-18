@@ -1,0 +1,2 @@
+rootProject.name = "Tu-do App"
+include ':app'

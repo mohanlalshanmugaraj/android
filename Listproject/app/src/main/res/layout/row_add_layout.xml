@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+
+    <EditText
+        android:id="@+id/edit_cricketer_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/round_gray"
+        android:layout_weight="1"
+        android:hint="Cake Name"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></EditText>
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+
+        android:src="@drawable/ic_close"
+        app:tint="@color/black"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:padding="10px"
+        android:paddingLeft="10px"
+        android:background="@color/white">
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_team1"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+
+            android:layout_marginLeft="10dp"></androidx.appcompat.widget.AppCompatSpinner>
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_team2"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="190dp"></androidx.appcompat.widget.AppCompatSpinner>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

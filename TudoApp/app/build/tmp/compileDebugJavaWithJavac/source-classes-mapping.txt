@@ -1,0 +1,6 @@
+com/example/tu_doapp/BuildConfig.java
+ com.example.tu_doapp.BuildConfig
+com/example/tu_doapp/MainActivity.java
+ com.example.tu_doapp.MainActivity
+ com.example.tu_doapp.MainActivity$1
+ com.example.tu_doapp.MainActivity$2
